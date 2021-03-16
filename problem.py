@@ -10,6 +10,7 @@ def setup():
         for j in range(N):
             row.append(random.randrange(0,2))
         board.append(row)
+    print("sticazzi")
 
 if __name__ == "__main__":
     setup()
